@@ -13,6 +13,7 @@ jobs:
         with:
           repository: sreekanth-tf/repo-one
           ref: main
+          token: ${{secrets.PA_TOKEN}}
       - name: Set up Java
         uses: actions/setup-java@v2
         with:
