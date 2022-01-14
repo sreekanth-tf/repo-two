@@ -20,4 +20,4 @@ jobs:
           distribution: 'adopt'
           cache: 'maven'
       - name: Build
-        run: mvn build
+        run: mvn clean package
